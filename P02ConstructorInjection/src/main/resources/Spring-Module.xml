@@ -3,8 +3,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="helloSetterBean" class="com.spike.java.HelloWorld">
-        <property name="name" value="Spring from Setter"/>
+    <bean id="helloConstructorBean" class="com.spike.java.HelloWorld">
+        <constructor-arg value="Spring from Constructor"/>
     </bean>
 
 </beans>

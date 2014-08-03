@@ -5,14 +5,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Hello world!
- *
  */
-public class App
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
-        HelloWorld obj = (HelloWorld) context.getBean("helloSetterBean");
+        HelloWorld obj = (HelloWorld) context.getBean("helloConstructorBean");
         obj.printHello();
     }
 }
