@@ -10,7 +10,7 @@
     <artifactId>P02ConstructorInjection</artifactId>
     <packaging>jar</packaging>
 
-    <name>P01SetterInjection</name>
+    <name>P02ConstructorInjection</name>
     <url>http://maven.apache.org</url>
 
     <properties>

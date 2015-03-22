@@ -10,6 +10,7 @@
         <module>P02ConstructorInjection</module>
         <module>P03JMS01</module>
         <module>P04JMS02</module>
+        <module>P05SetterInjection</module>
     </modules>
     <packaging>pom</packaging>
 

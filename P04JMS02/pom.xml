@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>JMS</artifactId>
     <packaging>war</packaging>
-    <name>P03JMS02</name>
+    <name>P04JMS02</name>
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -74,7 +74,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>JMS</finalName>
+        <finalName>P04JMS02</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>
