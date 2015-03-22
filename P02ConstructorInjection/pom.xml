@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>P01SetterInjection</artifactId>
+    <artifactId>P02ConstructorInjection</artifactId>
     <packaging>jar</packaging>
 
     <name>P01SetterInjection</name>
