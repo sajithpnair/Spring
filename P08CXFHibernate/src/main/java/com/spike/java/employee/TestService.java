@@ -24,8 +24,14 @@ public class TestService {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Employee testHello() {
-        Session session = sessionFactory.getCurrentSession();
-        Employee employee = (Employee) session.get(Employee.class, 1001);
+        Employee employee = null;
+        try {
+            Session session = sessionFactory.getCurrentSession();
+            employee = (Employee) session.get(Employee.class, 1001);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return employee;
     }
 }
