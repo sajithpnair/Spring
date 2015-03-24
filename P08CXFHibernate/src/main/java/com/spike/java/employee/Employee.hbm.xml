@@ -3,7 +3,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.spike.java.employee.Employee" table="employee_details" schema="spike">
+    <class name="com.spike.java.employee.Employee" table="employee_details">
         <id name="employeeId" type="java.lang.Integer">
             <column name="EMPLOYEE_ID"/>
             <generator class="assigned"/>
