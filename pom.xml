@@ -13,6 +13,7 @@
         <module>P05SetterInjection</module>
         <module>P06HibernatePostgreSQL</module>
         <module>P07ApacheCXF</module>
+        <module>P08CXFHibernate</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -33,6 +34,7 @@
         <org.postgresql.version>9.4-1201-jdbc41</org.postgresql.version>
         <org.hibernate.version>4.3.5.Final</org.hibernate.version>
         <org.codehaus.jackson.version>1.9.13</org.codehaus.jackson.version>
+        <org.apache.commons.dbcp.version>2.1</org.apache.commons.dbcp.version>
     </properties>
 
 </project>
